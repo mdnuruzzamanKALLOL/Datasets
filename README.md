@@ -23,7 +23,7 @@ Datasets/
 
 **`personal_collection/`** — an organically grown collection from courses, tutorials, and projects over time (R package datasets like `Cars93`, `Carseats`, `Hitters`, `Prestige`; Kaggle-style sets like `Churn_Modelling`, `Mall_Customers_Int`, `Cust_Segmentation`; time series like `AirPassengers`, `daily-min-temperatures`; and more). Kept exactly as collected — filenames and formats vary (`.csv`, `.tsv`, `.xlsx`, `.rds`, `.json`), since this reflects real, messy, real-world data sourcing.
 
-**`sklearn/` `seaborn/` `openml/` `synthetic/`** — the curated set from the [Statistical Machine Learning for Noob](https://github.com/mdnuruzzamanKALLOL/Statistical-Machine-Learning-Foundation/tree/main/datasets) catalog: every file name-verified live against its source API, every large dataset downsampled to ≤15,000 rows for portability, every synthetic dataset reproducible via `random_state=42`. See [`MANIFEST_curated.csv`](MANIFEST_curated.csv) for the full index, or the [Foundation repo's dataset catalog](https://github.com/mdnuruzzamanKALLOL/Statistical-Machine-Learning-Foundation/tree/main/datasets) for task descriptions and API-based load code for each one.
+**`sklearn/` `seaborn/` `openml/` `synthetic/`** — the curated set: every file name-verified live against its source API, every large dataset downsampled to ≤15,000 rows for portability, every synthetic dataset reproducible via `random_state=42`. See [`MANIFEST_curated.csv`](MANIFEST_curated.csv) for the full index, or **[CATALOG.md](CATALOG.md)** for per-dataset task descriptions, API-based load code, and a "which dataset for which ML topic" mapping.
 
 ## 🧹 Cleanup Notes (done while consolidating)
 
@@ -49,5 +49,6 @@ manifest = pd.read_csv("MANIFEST_curated.csv")
 
 ## 🔗 Related
 
-- [Statistical Machine Learning for Noob — Foundation](https://github.com/mdnuruzzamanKALLOL/Statistical-Machine-Learning-Foundation) (dataset catalog with task descriptions + API load code)
+- [**CATALOG.md**](CATALOG.md) — full dataset catalog: task descriptions, API load code, "which dataset for which topic" mapping
+- [Statistical Machine Learning for Noob — Foundation](https://github.com/mdnuruzzamanKALLOL/Statistical-Machine-Learning-Foundation)
 - [Statistical Machine Learning for Noob — Classical ML](https://github.com/mdnuruzzamanKALLOL/Statistical-Machine-Learning-Classical-ML)
