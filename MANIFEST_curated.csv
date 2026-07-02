@@ -1,0 +1,213 @@
+category,name,task,rows,cols,size_kb,sampled_from,source,path
+sklearn,iris,Classification,150,5,2.9,,sklearn.datasets,sklearn/iris.csv
+sklearn,wine,Classification,178,14,12.1,,sklearn.datasets,sklearn/wine.csv
+sklearn,breast_cancer,Classification,569,31,119.1,,sklearn.datasets,sklearn/breast_cancer.csv
+sklearn,diabetes,Regression,442,11,93.3,,sklearn.datasets,sklearn/diabetes.csv
+sklearn,digits,Classification,1797,65,485.5,,sklearn.datasets,sklearn/digits.csv
+sklearn,linnerud,Regression,20,6,0.7,,sklearn.datasets,sklearn/linnerud.csv
+sklearn,california_housing,Regression,15000,9,1359.8,20640,sklearn.datasets,sklearn/california_housing.csv
+sklearn,covertype,Classification,15000,55,3492.6,581012,sklearn.datasets,sklearn/covertype.csv
+seaborn,anagrams,EDA/Mixed,20,5,0.4,,seaborn.load_dataset,seaborn/anagrams.csv
+seaborn,anscombe,EDA/Mixed,44,3,0.6,,seaborn.load_dataset,seaborn/anscombe.csv
+seaborn,attention,EDA/Mixed,60,5,1.2,,seaborn.load_dataset,seaborn/attention.csv
+seaborn,brain_networks,EDA/Mixed,923,63,1051.7,,seaborn.load_dataset,seaborn/brain_networks.csv
+seaborn,car_crashes,EDA/Mixed,51,8,2.9,,seaborn.load_dataset,seaborn/car_crashes.csv
+seaborn,diamonds,EDA/Mixed,15000,10,712.7,53940,seaborn.load_dataset,seaborn/diamonds.csv
+seaborn,dots,EDA/Mixed,848,5,26.0,,seaborn.load_dataset,seaborn/dots.csv
+seaborn,dowjones,EDA/Mixed,649,2,11.7,,seaborn.load_dataset,seaborn/dowjones.csv
+seaborn,exercise,EDA/Mixed,90,6,2.8,,seaborn.load_dataset,seaborn/exercise.csv
+seaborn,flights,EDA/Mixed,144,3,2.0,,seaborn.load_dataset,seaborn/flights.csv
+seaborn,fmri,EDA/Mixed,1064,5,37.8,,seaborn.load_dataset,seaborn/fmri.csv
+seaborn,geyser,EDA/Mixed,272,3,4.0,,seaborn.load_dataset,seaborn/geyser.csv
+seaborn,glue,EDA/Mixed,64,5,2.1,,seaborn.load_dataset,seaborn/glue.csv
+seaborn,healthexp,EDA/Mixed,274,4,7.3,,seaborn.load_dataset,seaborn/healthexp.csv
+seaborn,iris,EDA/Mixed,150,5,3.9,,seaborn.load_dataset,seaborn/iris.csv
+seaborn,mpg,EDA/Mixed,398,9,21.1,,seaborn.load_dataset,seaborn/mpg.csv
+seaborn,penguins,EDA/Mixed,344,7,15.0,,seaborn.load_dataset,seaborn/penguins.csv
+seaborn,planets,EDA/Mixed,1035,6,36.4,,seaborn.load_dataset,seaborn/planets.csv
+seaborn,seaice,EDA/Mixed,13175,2,238.5,,seaborn.load_dataset,seaborn/seaice.csv
+seaborn,taxis,EDA/Mixed,6433,14,855.3,,seaborn.load_dataset,seaborn/taxis.csv
+seaborn,tips,EDA/Mixed,244,7,8.0,,seaborn.load_dataset,seaborn/tips.csv
+seaborn,titanic,EDA/Mixed,891,15,56.6,,seaborn.load_dataset,seaborn/titanic.csv
+openml,titanic,Mixed (see catalog),2201,4,49.5,,sklearn.datasets.fetch_openml,openml/titanic.csv
+openml,adult,Mixed (see catalog),15000,15,1560.0,48842,sklearn.datasets.fetch_openml,openml/adult.csv
+openml,credit-g,Mixed (see catalog),1000,21,136.7,,sklearn.datasets.fetch_openml,openml/credit-g.csv
+openml,mushroom,Mixed (see catalog),8124,23,370.8,,sklearn.datasets.fetch_openml,openml/mushroom.csv
+openml,spambase,Mixed (see catalog),4601,58,1085.9,,sklearn.datasets.fetch_openml,openml/spambase.csv
+openml,ionosphere,Mixed (see catalog),351,35,80.2,,sklearn.datasets.fetch_openml,openml/ionosphere.csv
+openml,sonar,Mixed (see catalog),208,61,85.7,,sklearn.datasets.fetch_openml,openml/sonar.csv
+openml,glass,Mixed (see catalog),214,10,13.7,,sklearn.datasets.fetch_openml,openml/glass.csv
+openml,ecoli,Mixed (see catalog),336,8,12.4,,sklearn.datasets.fetch_openml,openml/ecoli.csv
+openml,yeast,Mixed (see catalog),1484,9,61.6,,sklearn.datasets.fetch_openml,openml/yeast.csv
+openml,car,Mixed (see catalog),1728,7,46.5,,sklearn.datasets.fetch_openml,openml/car.csv
+openml,zoo,Mixed (see catalog),101,17,9.3,,sklearn.datasets.fetch_openml,openml/zoo.csv
+openml,balance-scale,Mixed (see catalog),625,5,6.8,,sklearn.datasets.fetch_openml,openml/balance-scale.csv
+openml,tic-tac-toe,Mixed (see catalog),958,10,26.4,,sklearn.datasets.fetch_openml,openml/tic-tac-toe.csv
+openml,vote,Mixed (see catalog),435,17,18.1,,sklearn.datasets.fetch_openml,openml/vote.csv
+openml,segment,Mixed (see catalog),2310,20,311.6,,sklearn.datasets.fetch_openml,openml/segment.csv
+openml,vehicle,Mixed (see catalog),846,19,55.0,,sklearn.datasets.fetch_openml,openml/vehicle.csv
+openml,satimage,Mixed (see catalog),6430,37,2147.6,,sklearn.datasets.fetch_openml,openml/satimage.csv
+openml,letter,Mixed (see catalog),15000,17,536.6,20000,sklearn.datasets.fetch_openml,openml/letter.csv
+openml,abalone,Mixed (see catalog),4177,9,191.6,,sklearn.datasets.fetch_openml,openml/abalone.csv
+openml,kin8nm,Mixed (see catalog),8192,9,804.5,,sklearn.datasets.fetch_openml,openml/kin8nm.csv
+openml,pol,Mixed (see catalog),15000,49,1699.3,,sklearn.datasets.fetch_openml,openml/pol.csv
+openml,wine-quality-red,Mixed (see catalog),1599,12,91.4,,sklearn.datasets.fetch_openml,openml/wine-quality-red.csv
+openml,wine-quality-white,Mixed (see catalog),4898,12,285.1,,sklearn.datasets.fetch_openml,openml/wine-quality-white.csv
+openml,phoneme,Mixed (see catalog),5404,6,266.3,,sklearn.datasets.fetch_openml,openml/phoneme.csv
+openml,blood-transfusion-service-center,Mixed (see catalog),748,5,11.0,,sklearn.datasets.fetch_openml,openml/blood-transfusion-service-center.csv
+openml,banknote-authentication,Mixed (see catalog),1372,5,45.3,,sklearn.datasets.fetch_openml,openml/banknote-authentication.csv
+openml,seeds,Mixed (see catalog),210,8,9.3,,sklearn.datasets.fetch_openml,openml/seeds.csv
+openml,climate-model-simulation-crashes,Mixed (see catalog),540,21,86.2,,sklearn.datasets.fetch_openml,openml/climate-model-simulation-crashes.csv
+openml,diabetes,Mixed (see catalog),768,9,33.9,,sklearn.datasets.fetch_openml,openml/diabetes.csv
+openml,monks-problems-1,Mixed (see catalog),556,7,8.2,,sklearn.datasets.fetch_openml,openml/monks-problems-1.csv
+openml,hepatitis,Mixed (see catalog),155,20,11.7,,sklearn.datasets.fetch_openml,openml/hepatitis.csv
+openml,heart-statlog,Mixed (see catalog),270,14,11.7,,sklearn.datasets.fetch_openml,openml/heart-statlog.csv
+openml,liver-disorders,Mixed (see catalog),345,6,6.8,,sklearn.datasets.fetch_openml,openml/liver-disorders.csv
+openml,haberman,Mixed (see catalog),306,4,3.4,,sklearn.datasets.fetch_openml,openml/haberman.csv
+openml,page-blocks,Mixed (see catalog),5473,11,240.6,,sklearn.datasets.fetch_openml,openml/page-blocks.csv
+openml,nursery,Mixed (see catalog),12960,9,1047.3,,sklearn.datasets.fetch_openml,openml/nursery.csv
+openml,kr-vs-kp,Mixed (see catalog),3196,37,243.5,,sklearn.datasets.fetch_openml,openml/kr-vs-kp.csv
+openml,anneal,Mixed (see catalog),898,39,58.7,,sklearn.datasets.fetch_openml,openml/anneal.csv
+openml,audiology,Mixed (see catalog),226,70,42.7,,sklearn.datasets.fetch_openml,openml/audiology.csv
+openml,lymph,Mixed (see catalog),148,19,14.5,,sklearn.datasets.fetch_openml,openml/lymph.csv
+openml,primary-tumor,Mixed (see catalog),339,18,23.8,,sklearn.datasets.fetch_openml,openml/primary-tumor.csv
+openml,breast-w,Mixed (see catalog),699,10,20.4,,sklearn.datasets.fetch_openml,openml/breast-w.csv
+openml,thyroid-allbp,Mixed (see catalog),2800,27,205.8,,sklearn.datasets.fetch_openml,openml/thyroid-allbp.csv
+openml,cmc,Mixed (see catalog),1473,10,31.9,,sklearn.datasets.fetch_openml,openml/cmc.csv
+openml,autos,Mixed (see catalog),205,26,26.2,,sklearn.datasets.fetch_openml,openml/autos.csv
+openml,credit-approval,Mixed (see catalog),690,16,32.1,,sklearn.datasets.fetch_openml,openml/credit-approval.csv
+openml,hill-valley,Mixed (see catalog),1212,101,820.7,,sklearn.datasets.fetch_openml,openml/hill-valley.csv
+openml,madelon,Mixed (see catalog),2600,501,5088.1,,sklearn.datasets.fetch_openml,openml/madelon.csv
+openml,optdigits,Mixed (see catalog),5620,65,814.9,,sklearn.datasets.fetch_openml,openml/optdigits.csv
+openml,pendigits,Mixed (see catalog),10992,17,537.8,,sklearn.datasets.fetch_openml,openml/pendigits.csv
+openml,wdbc,Mixed (see catalog),569,31,118.7,,sklearn.datasets.fetch_openml,openml/wdbc.csv
+openml,labor,Mixed (see catalog),57,17,3.8,,sklearn.datasets.fetch_openml,openml/labor.csv
+openml,vowel,Mixed (see catalog),990,13,77.4,,sklearn.datasets.fetch_openml,openml/vowel.csv
+openml,waveform-5000,Mixed (see catalog),5000,41,1038.3,,sklearn.datasets.fetch_openml,openml/waveform-5000.csv
+openml,spectf,Mixed (see catalog),349,45,46.2,,sklearn.datasets.fetch_openml,openml/spectf.csv
+openml,spectrometer,Mixed (see catalog),531,102,488.3,,sklearn.datasets.fetch_openml,openml/spectrometer.csv
+openml,solar-flare,Mixed (see catalog),315,13,8.6,,sklearn.datasets.fetch_openml,openml/solar-flare.csv
+openml,soybean,Mixed (see catalog),683,36,167.5,,sklearn.datasets.fetch_openml,openml/soybean.csv
+openml,splice,Mixed (see catalog),3190,61,385.4,,sklearn.datasets.fetch_openml,openml/splice.csv
+openml,sick,Mixed (see catalog),3772,30,314.8,,sklearn.datasets.fetch_openml,openml/sick.csv
+openml,colic,Mixed (see catalog),368,27,24.1,,sklearn.datasets.fetch_openml,openml/colic.csv
+openml,meta,Mixed (see catalog),528,22,64.6,,sklearn.datasets.fetch_openml,openml/meta.csv
+openml,puma8NH,Mixed (see catalog),8192,9,683.6,,sklearn.datasets.fetch_openml,openml/puma8NH.csv
+openml,puma32H,Mixed (see catalog),8192,33,2461.6,,sklearn.datasets.fetch_openml,openml/puma32H.csv
+openml,bank8FM,Mixed (see catalog),8192,9,625.1,,sklearn.datasets.fetch_openml,openml/bank8FM.csv
+openml,bank32nh,Mixed (see catalog),8192,33,2251.8,,sklearn.datasets.fetch_openml,openml/bank32nh.csv
+openml,cpu_act,Mixed (see catalog),8192,22,794.3,,sklearn.datasets.fetch_openml,openml/cpu_act.csv
+openml,cpu_small,Mixed (see catalog),8192,13,462.0,,sklearn.datasets.fetch_openml,openml/cpu_small.csv
+openml,delta_ailerons,Mixed (see catalog),7129,6,260.0,,sklearn.datasets.fetch_openml,openml/delta_ailerons.csv
+openml,delta_elevators,Mixed (see catalog),9517,7,353.4,,sklearn.datasets.fetch_openml,openml/delta_elevators.csv
+openml,pollen,Mixed (see catalog),3848,5,145.4,,sklearn.datasets.fetch_openml,openml/pollen.csv
+openml,space_ga,Mixed (see catalog),3107,7,355.6,,sklearn.datasets.fetch_openml,openml/space_ga.csv
+openml,stock,Mixed (see catalog),950,10,58.7,,sklearn.datasets.fetch_openml,openml/stock.csv
+openml,elevators,Mixed (see catalog),15000,19,1523.3,16599,sklearn.datasets.fetch_openml,openml/elevators.csv
+openml,house_16H,Mixed (see catalog),15000,17,2161.8,22784,sklearn.datasets.fetch_openml,openml/house_16H.csv
+openml,house_8L,Mixed (see catalog),15000,9,1103.9,22784,sklearn.datasets.fetch_openml,openml/house_8L.csv
+openml,fried,Mixed (see catalog),15000,11,975.8,40768,sklearn.datasets.fetch_openml,openml/fried.csv
+openml,2dplanes,Mixed (see catalog),15000,11,484.3,40768,sklearn.datasets.fetch_openml,openml/2dplanes.csv
+openml,mv,Mixed (see catalog),15000,11,1213.6,40768,sklearn.datasets.fetch_openml,openml/mv.csv
+openml,quake,Mixed (see catalog),2178,4,44.8,,sklearn.datasets.fetch_openml,openml/quake.csv
+openml,socmob,Mixed (see catalog),1156,6,69.7,,sklearn.datasets.fetch_openml,openml/socmob.csv
+openml,no2,Mixed (see catalog),500,8,20.4,,sklearn.datasets.fetch_openml,openml/no2.csv
+openml,plasma_retinol,Mixed (see catalog),315,14,25.4,,sklearn.datasets.fetch_openml,openml/plasma_retinol.csv
+openml,visualizing_environmental,Mixed (see catalog),111,4,3.1,,sklearn.datasets.fetch_openml,openml/visualizing_environmental.csv
+openml,analcatdata_apnea1,Mixed (see catalog),475,4,5.4,,sklearn.datasets.fetch_openml,openml/analcatdata_apnea1.csv
+openml,analcatdata_apnea2,Mixed (see catalog),475,4,5.4,,sklearn.datasets.fetch_openml,openml/analcatdata_apnea2.csv
+openml,analcatdata_apnea3,Mixed (see catalog),450,4,5.1,,sklearn.datasets.fetch_openml,openml/analcatdata_apnea3.csv
+openml,prnn_synth,Mixed (see catalog),250,3,6.2,,sklearn.datasets.fetch_openml,openml/prnn_synth.csv
+openml,rmftsa_ladata,Mixed (see catalog),508,11,31.6,,sklearn.datasets.fetch_openml,openml/rmftsa_ladata.csv
+openml,sensory,Mixed (see catalog),576,12,15.8,,sklearn.datasets.fetch_openml,openml/sensory.csv
+openml,SWD,Mixed (see catalog),1000,11,22.5,,sklearn.datasets.fetch_openml,openml/SWD.csv
+openml,triazines,Mixed (see catalog),186,61,47.1,,sklearn.datasets.fetch_openml,openml/triazines.csv
+openml,veteran,Mixed (see catalog),137,8,5.0,,sklearn.datasets.fetch_openml,openml/veteran.csv
+openml,autoPrice,Mixed (see catalog),159,16,11.1,,sklearn.datasets.fetch_openml,openml/autoPrice.csv
+openml,chscase_geyser1,Mixed (see catalog),222,3,2.3,,sklearn.datasets.fetch_openml,openml/chscase_geyser1.csv
+openml,disclosure_x_bias,Mixed (see catalog),662,4,24.6,,sklearn.datasets.fetch_openml,openml/disclosure_x_bias.csv
+openml,arsenic-female-bladder,Mixed (see catalog),559,5,10.1,,sklearn.datasets.fetch_openml,openml/arsenic-female-bladder.csv
+openml,chatfield_4,Mixed (see catalog),235,13,15.1,,sklearn.datasets.fetch_openml,openml/chatfield_4.csv
+synthetic,regression_linear_low_noise,Regression,500,6,57.7,,sklearn.datasets.make_*,synthetic/regression_linear_low_noise.csv
+synthetic,regression_single_feature,Regression,300,2,11.6,,sklearn.datasets.make_*,synthetic/regression_single_feature.csv
+synthetic,regression_multioutput,Regression,300,7,40.1,,sklearn.datasets.make_*,synthetic/regression_multioutput.csv
+synthetic,regression_high_noise,Regression,500,6,57.7,,sklearn.datasets.make_*,synthetic/regression_high_noise.csv
+synthetic,regression_many_features,Regression,500,21,201.6,,sklearn.datasets.make_*,synthetic/regression_many_features.csv
+synthetic,regression_no_noise,Regression,300,4,23.1,,sklearn.datasets.make_*,synthetic/regression_no_noise.csv
+synthetic,friedman1,Regression,500,11,103.7,,sklearn.datasets.make_*,synthetic/friedman1.csv
+synthetic,friedman2,Regression,500,5,45.7,,sklearn.datasets.make_*,synthetic/friedman2.csv
+synthetic,friedman3,Regression,500,5,45.9,,sklearn.datasets.make_*,synthetic/friedman3.csv
+synthetic,sparse_uncorrelated,Regression,300,11,63.5,,sklearn.datasets.make_*,synthetic/sparse_uncorrelated.csv
+synthetic,classification_binary_balanced,Classification,500,21,193.7,,sklearn.datasets.make_*,synthetic/classification_binary_balanced.csv
+synthetic,classification_imbalanced_90_10,Classification,500,21,193.8,,sklearn.datasets.make_*,synthetic/classification_imbalanced_90_10.csv
+synthetic,classification_imbalanced_95_5,Classification,500,21,193.9,,sklearn.datasets.make_*,synthetic/classification_imbalanced_95_5.csv
+synthetic,classification_multiclass_4,Classification,500,21,192.8,,sklearn.datasets.make_*,synthetic/classification_multiclass_4.csv
+synthetic,classification_multiclass_6,Classification,500,21,192.7,,sklearn.datasets.make_*,synthetic/classification_multiclass_6.csv
+synthetic,classification_2d_visualizable,Classification,400,3,16.4,,sklearn.datasets.make_*,synthetic/classification_2d_visualizable.csv
+synthetic,classification_high_dim,Classification,400,51,383.4,,sklearn.datasets.make_*,synthetic/classification_high_dim.csv
+synthetic,classification_noisy_labels,Classification,500,21,193.7,,sklearn.datasets.make_*,synthetic/classification_noisy_labels.csv
+synthetic,gaussian_quantiles,Classification,400,3,16.5,,sklearn.datasets.make_*,synthetic/gaussian_quantiles.csv
+synthetic,gaussian_quantiles_3class,Classification,400,3,16.5,,sklearn.datasets.make_*,synthetic/gaussian_quantiles_3class.csv
+synthetic,hastie_10_2,Classification,500,11,98.7,,sklearn.datasets.make_*,synthetic/hastie_10_2.csv
+synthetic,moons_low_noise,Classification,400,3,16.4,,sklearn.datasets.make_*,synthetic/moons_low_noise.csv
+synthetic,moons_high_noise,Classification,400,3,16.4,,sklearn.datasets.make_*,synthetic/moons_high_noise.csv
+synthetic,circles_default,Classification,400,3,16.6,,sklearn.datasets.make_*,synthetic/circles_default.csv
+synthetic,circles_close_factor,Classification,400,3,16.7,,sklearn.datasets.make_*,synthetic/circles_close_factor.csv
+synthetic,blobs_3_separated,Clustering,400,3,15.9,,sklearn.datasets.make_*,synthetic/blobs_3_separated.csv
+synthetic,blobs_5_overlapping,Clustering,400,3,15.8,,sklearn.datasets.make_*,synthetic/blobs_5_overlapping.csv
+synthetic,blobs_2_simple,Clustering,300,3,11.8,,sklearn.datasets.make_*,synthetic/blobs_2_simple.csv
+synthetic,blobs_high_dim,Clustering,400,11,74.9,,sklearn.datasets.make_*,synthetic/blobs_high_dim.csv
+synthetic,moons_for_dbscan,Clustering,400,3,16.4,,sklearn.datasets.make_*,synthetic/moons_for_dbscan.csv
+synthetic,circles_for_dbscan,Clustering,400,3,16.7,,sklearn.datasets.make_*,synthetic/circles_for_dbscan.csv
+synthetic,swiss_roll,Manifold,500,4,36.8,,sklearn.datasets.make_*,synthetic/swiss_roll.csv
+synthetic,s_curve,Manifold,500,4,38.2,,sklearn.datasets.make_*,synthetic/s_curve.csv
+synthetic,low_rank_matrix,Manifold,200,20,82.4,,sklearn.datasets.make_*,synthetic/low_rank_matrix.csv
+synthetic,spd_matrix_5x5,Math,5,5,0.5,,sklearn.datasets.make_*,synthetic/spd_matrix_5x5.csv
+synthetic,spd_matrix_10x10,Math,10,10,2.0,,sklearn.datasets.make_*,synthetic/spd_matrix_10x10.csv
+synthetic,regression_2features_viz,Regression,300,3,17.3,,sklearn.datasets.make_*,synthetic/regression_2features_viz.csv
+synthetic,regression_10features,Regression,400,11,84.7,,sklearn.datasets.make_*,synthetic/regression_10features.csv
+synthetic,regression_noise_5,Regression,400,6,46.2,,sklearn.datasets.make_*,synthetic/regression_noise_5.csv
+synthetic,regression_noise_30,Regression,400,6,46.2,,sklearn.datasets.make_*,synthetic/regression_noise_30.csv
+synthetic,regression_few_informative,Regression,400,16,122.9,,sklearn.datasets.make_*,synthetic/regression_few_informative.csv
+synthetic,regression_seed_10,Regression,400,6,46.1,,sklearn.datasets.make_*,synthetic/regression_seed_10.csv
+synthetic,regression_seed_20,Regression,400,6,46.2,,sklearn.datasets.make_*,synthetic/regression_seed_20.csv
+synthetic,friedman1_seed7,Regression,400,11,83.0,,sklearn.datasets.make_*,synthetic/friedman1_seed7.csv
+synthetic,friedman1_large_noise,Regression,400,11,83.0,,sklearn.datasets.make_*,synthetic/friedman1_large_noise.csv
+synthetic,sparse_uncorrelated_seed9,Regression,300,11,63.5,,sklearn.datasets.make_*,synthetic/sparse_uncorrelated_seed9.csv
+synthetic,classification_3class_2feat,Classification,400,3,16.4,,sklearn.datasets.make_*,synthetic/classification_3class_2feat.csv
+synthetic,classification_5class_5feat,Classification,400,21,154.3,,sklearn.datasets.make_*,synthetic/classification_5class_5feat.csv
+synthetic,classification_imbalanced_80_20,Classification,400,21,154.6,,sklearn.datasets.make_*,synthetic/classification_imbalanced_80_20.csv
+synthetic,classification_imbalanced_99_1,Classification,1000,21,387.1,,sklearn.datasets.make_*,synthetic/classification_imbalanced_99_1.csv
+synthetic,classification_redundant_features,Classification,400,21,153.6,,sklearn.datasets.make_*,synthetic/classification_redundant_features.csv
+synthetic,classification_low_separation,Classification,400,21,155.0,,sklearn.datasets.make_*,synthetic/classification_low_separation.csv
+synthetic,classification_high_separation,Classification,400,21,154.1,,sklearn.datasets.make_*,synthetic/classification_high_separation.csv
+synthetic,classification_seed_21,Classification,400,21,155.0,,sklearn.datasets.make_*,synthetic/classification_seed_21.csv
+synthetic,classification_seed_22,Classification,400,21,154.8,,sklearn.datasets.make_*,synthetic/classification_seed_22.csv
+synthetic,gaussian_quantiles_seed23,Classification,400,3,16.6,,sklearn.datasets.make_*,synthetic/gaussian_quantiles_seed23.csv
+synthetic,hastie_10_2_seed24,Classification,400,11,79.0,,sklearn.datasets.make_*,synthetic/hastie_10_2_seed24.csv
+synthetic,moons_seed25,Classification,400,3,16.5,,sklearn.datasets.make_*,synthetic/moons_seed25.csv
+synthetic,moons_seed26,Classification,400,3,16.4,,sklearn.datasets.make_*,synthetic/moons_seed26.csv
+synthetic,circles_seed27,Classification,400,3,16.6,,sklearn.datasets.make_*,synthetic/circles_seed27.csv
+synthetic,circles_seed28,Classification,400,3,16.8,,sklearn.datasets.make_*,synthetic/circles_seed28.csv
+synthetic,blobs_4_seed29,Clustering,400,3,15.8,,sklearn.datasets.make_*,synthetic/blobs_4_seed29.csv
+synthetic,blobs_6_seed30,Clustering,400,3,16.0,,sklearn.datasets.make_*,synthetic/blobs_6_seed30.csv
+synthetic,blobs_3_tight,Clustering,400,3,15.7,,sklearn.datasets.make_*,synthetic/blobs_3_tight.csv
+synthetic,blobs_3_wide,Clustering,400,3,15.7,,sklearn.datasets.make_*,synthetic/blobs_3_wide.csv
+synthetic,blobs_anisotropic,Clustering,400,3,16.0,,sklearn.datasets.make_*,synthetic/blobs_anisotropic.csv
+synthetic,blobs_2feat_seed34,Clustering,400,3,15.7,,sklearn.datasets.make_*,synthetic/blobs_2feat_seed34.csv
+synthetic,moons_seed35,Clustering,400,3,16.4,,sklearn.datasets.make_*,synthetic/moons_seed35.csv
+synthetic,circles_seed36,Clustering,400,3,16.7,,sklearn.datasets.make_*,synthetic/circles_seed36.csv
+synthetic,swiss_roll_seed37,Manifold,400,4,29.4,,sklearn.datasets.make_*,synthetic/swiss_roll_seed37.csv
+synthetic,s_curve_seed38,Manifold,400,4,30.6,,sklearn.datasets.make_*,synthetic/s_curve_seed38.csv
+synthetic,low_rank_matrix_seed39,Manifold,200,15,62.1,,sklearn.datasets.make_*,synthetic/low_rank_matrix_seed39.csv
+synthetic,spd_matrix_3x3,Math,3,3,0.2,,sklearn.datasets.make_*,synthetic/spd_matrix_3x3.csv
+synthetic,spd_matrix_8x8_seed41,Math,8,8,1.3,,sklearn.datasets.make_*,synthetic/spd_matrix_8x8_seed41.csv
+synthetic,regression_seed_50,Regression,400,7,53.8,,sklearn.datasets.make_*,synthetic/regression_seed_50.csv
+synthetic,regression_seed_51,Regression,400,9,69.2,,sklearn.datasets.make_*,synthetic/regression_seed_51.csv
+synthetic,classification_seed_52,Classification,400,21,154.7,,sklearn.datasets.make_*,synthetic/classification_seed_52.csv
+synthetic,classification_seed_53,Classification,400,21,154.7,,sklearn.datasets.make_*,synthetic/classification_seed_53.csv
+synthetic,blobs_seed_54,Clustering,400,3,16.0,,sklearn.datasets.make_*,synthetic/blobs_seed_54.csv
+synthetic,blobs_seed_55,Clustering,400,3,16.1,,sklearn.datasets.make_*,synthetic/blobs_seed_55.csv
+synthetic,moons_seed_56,Classification,400,3,16.5,,sklearn.datasets.make_*,synthetic/moons_seed_56.csv
+synthetic,friedman2_seed57,Regression,400,5,36.5,,sklearn.datasets.make_*,synthetic/friedman2_seed57.csv
+synthetic,friedman3_seed58,Regression,400,5,36.8,,sklearn.datasets.make_*,synthetic/friedman3_seed58.csv
