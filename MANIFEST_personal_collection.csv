@@ -46,8 +46,7 @@ Life_Expectancy_Data.csv,csv,196.8
 Mall_Customers_Int.csv,csv,3.1
 MarketArrivals.csv,csv,668.7
 Phishing Webpages Classification Dataset.csv,csv,1383.1
-PimaIndiansDiabetes.csv,csv,75.5
-PimaIndiansDiabetes.rds,rds,42.5
+PimaIndiansDiabetes.csv,csv,23.5
 Prestige.csv,csv,3.3
 Prestige_miss.csv,csv,3.2
 Raotbl6.csv,csv,6.8
@@ -164,7 +163,6 @@ norway_new_car_sales_by_month.csv,csv,9.0
 olympics.csv,csv,8.4
 orange_juice_withmissing.csv,csv,76.3
 orders_45d.csv,csv,183.9
-oxygen.csv,csv,13.4
 ozone.csv,csv,10.0
 phone_transcripts.csv,csv,2.2
 price_elasticity.csv,csv,50.5
