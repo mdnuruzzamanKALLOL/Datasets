@@ -54,4 +54,8 @@ manifest = pd.read_csv("MANIFEST_curated.csv")
 - [Statistical Machine Learning for Noob — Classical ML](https://github.com/mdnuruzzamanKALLOL/Statistical-Machine-Learning-Classical-ML)
 
 <!-- page-views-badge -->
-![Page Views](https://visitor-badge.laobi.icu/badge?page_id=mdnuruzzamanKALLOL.Datasets.root&left_color=%23555555&right_color=%23E67E22&left_text=Page%20Views)
+<div align="center" style="margin-top: 16px;">
+
+![Page Views](https://visitor-badge.laobi.icu/badge?page_id=mdnuruzzamanKALLOL.Datasets.root&left_color=%23FF6F00&right_color=%230e75b6&left_text=Page%20Views)
+
+</div>
